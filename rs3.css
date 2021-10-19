@@ -1,0 +1,239 @@
+@media screen and (max-width:480px) {
+    .lemon13{
+        width: 100%;
+        height: 100%;
+        background-color:white ;
+        align-items: center;
+        display: flex;
+        align-items: center;
+  
+        flex-direction: column;
+    }
+    }
+    .lemon13 .navbar5{
+        width: 100%;
+        height: 18vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar5 .logo23{
+        font-size:20px ;
+        font-family: 'Roboto', sans-serif;
+        border: 2px solid gray;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    .navbar5.serch-bar3{
+        display: flex;
+        justify-content: end;
+    }
+    .navbar5 .label2 img{
+        width: 13px;
+        position: relative;
+        top: 3px;
+        right: -20px;
+        top:-8px ;}
+    .navbar5 .input3{
+        width: 85px;
+        position: relative;
+        border: none;
+        outline: none;
+        right: -20px;
+        top: -10px;
+
+    }  
+    .navbar5 .input3::placeholder{
+        font-size: 9px;
+    }
+    
+    .navbar5 .burger-menu .menu-btn{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        
+        top: 38px;
+        right: 10px;
+        
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+         z-index: 1; 
+    }
+    .menu-btn > span,
+    .menu-btn > span::before,
+    .menu-btn > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #616161;
+      transition-duration: .25s;
+    }
+    .menu-btn > span::before {
+      content: '';
+      top: -8px;
+    }
+    .menu-btn > span::after {
+      content: '';
+      top: 8px;
+    }
+    .menubox{
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        background-color:rgb(194, 181, 181);
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        transition-duration: .25s;
+      }
+      .menu-item {
+        display: block;
+        padding: 12px 24px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+      }
+      .menu-item:hover {
+        background-color: #CFD8DC;
+      }
+      #menu-toggle{
+        opacity: 0;
+      }
+      #menu-toggle:checked ~ .menu-btn > span{
+        transform: rotate(45deg);
+      }
+      #menu-toggle:checked ~ .menu-btn > span::before{
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu-toggle:checked ~ .menu-btn > span::after{
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu-toggle:checked ~ .menubox{
+        visibility: visible;
+        left: 0;
+      }
+      .post11{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+           
+      }
+      .post11 .img img{
+        width: 100%;
+          
+      }
+      .post11 .post{
+          padding-top: 10px;
+          font-family: 'Roboto', sans-serif;
+      }
+      .post22{
+          background-color: white;
+          padding-top: 10px;
+          display: flex;
+          position: relative;
+          flex-direction: column;
+          width: 16em;   
+          align-items: center;
+          width: 100%;
+      }
+      .post22 .conteiner10{
+        
+        font-weight: 800;
+        font-size: 30px;
+        color: rgb(143, 17, 17);
+      }
+      .post22 .conteiner11{
+          font-weight: 700;
+          padding-bottom: 10px;
+          margin-left: -25px;
+      }
+      .post22 .conteiner12{
+           font-family: 'Farsan', cursive;
+           font-size: 18px;
+      }
+      .post22 .batton3{
+          border: 1px solid rgb(167, 163, 163);
+          display: flex;
+          justify-content: flex-start !important;
+          align-items: flex-start !important;
+          position: relative;
+          margin-top:15px;
+          margin-bottom:15px;
+          margin-left: -73px;
+          
+      }
+      .post22 .batton4{
+          
+          border: none;
+          font-size: 12px;
+          background-color: white;
+      }
+      .post22 .img5 img{
+          
+        width: 100%;
+        height: 250px;
+          
+      }
+      .post33{
+          width: 100%;
+          height: 40vh;
+          background-color: rgb(48, 45, 45);
+          display: flex;
+          justify-content: center;
+        }
+          
+      .post33 .logo3{
+            position: relative;
+            left: -25px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 17px;
+            border: 2px solid white; 
+            padding-left: 4px;
+            padding-right: 4px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            color: white;
+      }
+      
+      .post33 .navbar3{
+          
+          font-size: 10px;
+          display: flex;
+          flex-direction:column;
+          line-height:20px;
+          font-family: 'Roboto', sans-serif;
+          position: relative;
+          
+          align-items: flex-end;
+          color: rgb(224, 214, 214)
+      }
+      .post33 .border3{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 35px;
+        border-bottom:3px solid rgb(82, 79, 79) ;
+        margin-left:100px;
+        margin-right: 100px;
+        border-bottom:2px solid rgb(129, 128, 128) ;
+        height: 11vh;
+    
+    }

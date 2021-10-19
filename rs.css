@@ -1,0 +1,300 @@
+@media screen and (min-width: 800px){
+    .lemon2 {
+        display: none ;
+    }
+  }
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color:gainsboro ;
+  
+    
+}
+.lemon{
+    width: 100%;
+    height: 200vh;
+    background-color: gainsboro;
+    display: flex;
+    /* position: absolute; */
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+
+    
+    
+    
+    
+
+}
+.lemon .lemon-logo{
+    width: 300px;
+    height: 150px;
+    background-color: gainsboro;
+    position: relative;
+    border:3px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 55px; 
+  }
+.lemon .lemon-navbar{
+    width: 1170px;
+    height: 110px;
+    background-color: white;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 13px;
+    margin-right: 15px;
+}
+
+    
+
+.lemon .lemon-navbar .lEMON{
+    border: 2px solid grey;
+    padding-top: 6px;
+}
+.lemon .lemon-navbar .leMon{
+    /* font-size: 16px !important; */
+    word-spacing: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    
+}
+.lemon .lemon-post{
+    width: 1170px;
+    height: 500px;
+    background-color: rgba(245, 245, 245, 0.986);
+    display: flex;
+    justify-content: space-evenly;
+
+
+     }
+.lemon .lemon-post .lemon-p3 img{
+    height: 100%;
+    width: 100%;  
+     
+} 
+.lemon .lemon-post .lemon-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+     
+}
+.lemon .lemon-post .lemon-p .lemon-lOgo{
+
+font-family: 'Roboto', sans-serif;
+font-size: 70px;
+border: 2px solid gray;
+padding-left: 10px;
+padding-bottom: 13px;
+padding-top: 10px;
+position: relative;
+padding-left: 33px;
+
+
+
+}
+.lemon .lemon-post .lemon-p .span{
+    font-size: 26px;
+    flex-direction: column;
+    display: flex;
+    position:absolute; 
+    color: rgb(155, 9, 9);
+    margin-bottom: 60px;
+    
+
+}
+.lemon .lemon-post .lemon-p .span2{
+    display: flex;
+   
+    flex-direction: column;
+    position:relative;
+    top: 8%;
+    font-family: 'Farsan', cursive;
+   font-size: 20px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+    
+}
+.lemon .lemon-post .lemon-p .button{
+position: relative;
+padding-top: 0px;
+
+width: 110px;
+font-size: 10px;
+border: 2px solid rgb(204, 194, 194);
+}
+.lemon .lemon-post .lemon-p .button2{
+    font-size: 13px;
+    border: none;
+    color:rgb(95, 93, 93) ;
+}
+
+
+.lemon .lemon-navbar .serch{
+    border: solid 2px gainsboro;
+    width:140px ;
+    height: 20px;
+    
+    
+}
+    .lemon .lemon-navbar .serch .input{
+        width: 140px;
+        border: none;
+        outline: none;
+        position: absolute;
+       
+    
+}
+.lemon .lemon-navbar .serch .input::placeholder{
+    font-size: 12px;
+    position: relative;
+    left: 25%;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+.lemon .lemon-post2{
+    max-width: 1170px; 
+    height: 370px;
+    background-color: white;  
+}
+.lemon .lemon-post2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1170px;
+    height: 200px;
+    background-color: rgb(44, 42, 42);
+
+}
+.lemon .lemon-post2 .conteiner-logo{
+
+    font-family: 'Karla', sans-serif;
+    font-size: 36px;
+    border: 2px solid white;
+    color: white;
+}
+.lemon .lemon-post2 .conteiner-nav{
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    color: whitesmoke;
+    word-spacing: 12px;  
+ }
+
+    .lemon .lemon-post2 .conteiner-about{
+    font-family: 'Karla', sans-serif;
+    color: whitesmoke;
+}
+  
+  @media screen and (max-width: 800px){
+    .lemon {
+        display: none ;
+        
+    }    
+ }   
+    
+    
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @media screen and (max-width:1100px) {
+        .lemon .lemon-navbar{
+            width: 800px;
+            font-size: 10px !important;
+            
+          }   
+        }
+
+        @media screen and (max-width:1100px){
+        .lemon .lemon-post{
+           
+            width: 800px;
+            height: 400px;
+
+        }
+        }
+    @media screen and (max-width:1100px){
+        .lemon .lemon-post .lemon-p{
+         
+           width: 400px;
+           justify-content: space-evenly;
+           position: relative;
+        }
+    }
+
+ @media screen and (max-width:1100px){ 
+    .lemon .lemon-post .lemon-p .span{
+            margin-left: 30px;
+        font-size: 20px;
+    }
+ }
+ @media screen and (max-width:1100px){
+     .lemon .lemon-post .lemon-p .span2{
+      font-size: 15px;
+      margin-left: 30px;
+     } 
+    }
+    @media screen and (max-width:1100px){
+        .lemon .lemon-post .lemon-p .lemon-lOgo{
+            font-size: 30px;
+            margin-left: 30px;
+            height: 35px;
+            width: 93px;
+        }
+    }
+    @media screen and (max-width:1100px){
+        .lemon .lemon-post .lemon-p .button{
+            margin-left: 30px;
+        }
+    }
+
+    @media screen and (max-width:1100px){
+        .lemon .lemon-post .lemon-p3 img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    @media screen and (max-width:1100px){
+        .lemon .lemon-post2{
+            width: 800px;
+            
+        }
+    }
+    @media screen and (max-width:1100px){
+        .lemon .lemon-post2 .conteiner-logo{
+            font-size: 25px;
+        }
+    }
+    @media screen and (max-width:1100px){ 
+        .lemon .lemon-post2 .conteiner-nav{
+            font-size: 11px;
+            word-spacing: 10px;
+        }
+     }
+     @media screen and (max-width:1100px){
+        .lemon .lemon-post2 .conteiner-about{
+            font-size: 11px;
+        }
+     }
+     @media screen and (min-width: 800px){
+     .lemon2-post .content{
+         display: none;
+      }
+    }
+ 
+    @media screen and (min-width:480px) {
+        .lemon13{
+           display: none; }
+    }
+     
